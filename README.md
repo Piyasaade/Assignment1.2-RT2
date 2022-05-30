@@ -16,15 +16,20 @@ Second Part:
 In this part, a jupyter notebook is used, The Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text.
 The main purpose of using this source is to create our userinterface using widgets to create our own buttons and sliders.
 In my case buttons were used many times,
+
 **first** Is the Menu of the code, since the user has the ability to choose between three choices which are the following:
 -Enter its own new coordinates X and Y for the robot 
 -Controlling thr robot using the keyboard
 -controlling the robot using the keyboard while avoiding obstacles.
 So these three options can be choose using collored buttons in a way whenever a button is pressed or chosen from the user it will call a speecific funtion.
+
 **second** going through each choice, if button one has been chosen from the user a unction 'CASE 1' will be called in that case where this function contains two  'widgets.BoundedFloatText' for x and y startin from a specified value 0.5 in my case and can be increased or decreased from the user, 0.1 step per push.
 accordingly a new button will appear 'send X and Y', once pressed a new function will called getting the new values of X and Y as inputs and sending them to the robot using the client server.
+
 **Third** if second button of the menu is pushed, other 4 buttons will appear responsible of the guidance of the robot containing the 'up' 'down' 'left' and 'right' buttons which will accordingly call a new function responsible of the velocity of the robot.
+
 **fourth** The third button in the menu will do the same job as the second but a check box will be displayed in a way that will launch the file responsible of the avoidance of the obstacles.
+
 Moreover, two visualisers were included to track the path of the robot and the laserscan.
 
 Third Part:
