@@ -2,7 +2,9 @@ Assignment 1
 =============
 This assignment is composed of three parts:
 -The first part is: docummenting the third assignment of research track 1 using Sphinx or Doxygen.
+
 -The second part is: creating a jupyter notebook as a user interface for the same assignmnet that can drive the robot.
+
 -The third part is: statistical studies that is done to compare between my first assignment of research track one and the given from the Professor using specific tests.
 
 First Part:
