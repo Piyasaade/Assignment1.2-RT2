@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-
-<launch>
-    <node name="user" pkg="P_code" type="P_userinterface.py"  output="screen"  />
-
-
-</launch>
