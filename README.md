@@ -55,6 +55,7 @@ in this case the hypothesis are:
 H0:The two codes have the same speed
 
 Ha:My robot is faster
+
 since in this case t_calculated > t_table it can reject the H0 and support the Ha
 
 **Wrong directions:**
@@ -63,6 +64,7 @@ In this case the direction took by the robot while driving or after crabing and 
 H0: both can drive taking a straight direction
 
 Ha: Professor's robot can drive with a straight direction.
+
 and since also in this case t_calculated > t_table this one can reject the H0 and support the Ha
 
 **Crashed/Not crashed**
@@ -70,5 +72,6 @@ In this case the Chi-square test is used, in which we are comparing the number o
 
 H0: both code have the same efficiency
 
-Ha: Professor's code is better. 
-since the result i got is on the left side so the H0 can't be rejected
+Ha: Professor's code is better.
+
+since the result i got is on the left side so the H0 can't be rejected (between 0.1 and 0.2)
