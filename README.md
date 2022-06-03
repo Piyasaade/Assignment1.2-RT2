@@ -51,18 +51,24 @@ The chi-square statistic is one way to show a relationship between two categoric
 **Timing of the codes:**
 In this case, the timing of the laps took in both codes where studied to compute all the calculations sited before and to finally get to a conclusion where the hypothesis can be accepted or rejected
 in this case the hypothesis are:
+
 H0:The two codes have the same speed
+
 Ha:My robot is faster
 since in this case t_calculated > t_table it can reject the H0 and support the Ha
 
 **Wrong directions:**
 In this case the direction took by the robot while driving or after crabing and leaving a token behind
+
 H0: both can drive taking a straight direction
+
 Ha: Professor's robot can drive with a straight direction.
 and since also in this case t_calculated > t_table this one can reject the H0 and support the Ha
 
 **Crashed/Not crashed**
 In this case the Chi-square test is used, in which we are comparing the number of crashes done during the laps and what were the expected values
+
 H0: both code have the same efficiency
+
 Ha: Professor's code is better. 
 since the result i got is on the left side so the H0 can't be rejected
