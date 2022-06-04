@@ -72,6 +72,7 @@ Ha: Professor's robot can drive with a straight direction.
 and since also in this case t_calculated > t_table this one can reject the H0 and support the Ha
 
 **Crashed/Not crashed**
+
 In this case the Chi-square test is used, in which we are comparing the number of crashes done during the laps and what were the expected values
 
 H0: both code have the same efficiency
