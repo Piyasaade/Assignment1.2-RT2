@@ -89,10 +89,11 @@ since the result i got is on the left side so the H0 can't be rejected (between 
 
 
 
+Set up:
+-------
+The simulation is built on the [ROS](http://wiki.ros.org/) (Robot-Operating-Systems) platform, specifically the MELODIC version to be able to have the Tiago Ros package in it. Here the guide for Tiago installation [Tiago robot](http://wiki.ros.org/). To use the melodic version it was necessary to work for the project on **Ubuntu 18** which can be donwoloaded at [Download Ubuntu 18](https://releases.ubuntu.com/18.04/).
 
-Introduction:
--------------
-The main purpose of this assignment (#14) is to build a software architecture (Ros 1 in our case) and a simulation environment containing a conveyor belt where 3D boxes are spawned one after the other and detected depending on their colors. Accordingly a robot manipulator (Tiago) is able to estimate their position through an RGB-D camera to grasp the box and put it in its specific bin.
-[google] (https://www.google.com)
-(https://www.google.com "Google's Homepage")
+The program requires the installation of the following packages and tools for the specific project before it can be launched:
+
+For the part of the project relating to object recognition, the Mediapipe library was used, thanks to which we were able to simply obtain the identification of a certain object with respect to the robot's camera, in our case we chose the recognition of a cup. MediaPipe Objectron is a mobile real-time 3D object detection solution for everyday objects. It detects objects in 2D images, and estimates their poses through a machine learning (ML) model. We found the tutorial and the downloadable packages here:
 [Google](https://www.google.com "Google's Homepage")
