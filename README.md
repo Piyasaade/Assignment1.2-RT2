@@ -80,3 +80,16 @@ H0: both code have the same efficiency
 Ha: Professor's code is better.
 
 since the result i got is on the left side so the H0 can't be rejected (between 0.1 and 0.2)
+
+
+
+
+
+
+
+
+
+
+Introduction:
+-------------
+The main purpose of this assignment (#14) is to build a software architecture (Ros 1 in our case) and a simulation environment containing a conveyor belt where 3D boxes are spawned one after the other and detected depending on their colors. Accordingly a robot manipulator (Tiago) is able to estimate their position through an RGB-D camera to grasp the box and put it in its specific bin.
