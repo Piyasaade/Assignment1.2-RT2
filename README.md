@@ -89,26 +89,3 @@ since the result i got is on the left side so the H0 can't be rejected (between 
 
 
 
-Set up:
--------
-The simulation is built on the [ROS](http://wiki.ros.org/) (Robot-Operating-Systems) platform, specifically the MELODIC version to be able to have the Tiago Ros package in it. Here the guide for Tiago installation [Tiago robot](http://wiki.ros.org/). To use the melodic version it was necessary to work for the project on **Ubuntu 18** which can be donwoloaded at [Download Ubuntu 18](https://releases.ubuntu.com/18.04/). As for the usage of the conveyor in this project, here the steps for its plugin [gazebo conveyor](https://github.com/rokokoo/gazebo-conveyor)
-
-
-Finally, to launch the simulation, you should run the line bellow:
-
-```bash
-$ roslaunch sofar_assignment world.launch 
-```
-To start the simulation, you should run the line bellow:
-
-
-```bash
-$ roslaunch sofar_assignment simulation.launch 
-```
-Possible Improvements:
-----------------------
-In this project, we designed a strategy for solving the 3D object detection problem for the robot named Tiago which was able to recognize, pick up and release boxes according to their colors in their specific place which can be done in many other ways. So instead of getting manually the waypoints related to the movements of the robot arm certainly in a way that the parameters are clearly chosen, therefore, no collisions with objects will occur.
-
-**Moveit** contains other tutorials that could be also used for the same purpose which are responsible of the movements so that the robot will be able to reach certain positions and this can be counted as an improved option to our ptoject.
-
-While for the detection of the objects, Tiago is equipped with an RGB-D camera that was able to catch two colors of the boxes (green and blue) spawned on the conveyor belt, whereas a possible improvement it could be allowing Tiago to grasp the object and release it relying on the shape or both the color and the shape of the object as more colors can be added and distinguished.
